@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Install dependencies
+      - name: Install dependenciesssss
         run: npm ci
       - name: Start Server
         run: nohup npm run start &
